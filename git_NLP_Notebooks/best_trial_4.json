@@ -1,0 +1,1 @@
+{"number": 3, "params": {"lstm_units": 107, "dense_1_units": 65, "dense_2_units": 105, "dropout_rate": 0.18219668546602055, "learning_rate": 0.00335218043181205}, "value": -0.7661307454109192}

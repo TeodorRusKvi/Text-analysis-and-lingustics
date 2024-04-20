@@ -1,0 +1,1 @@
+{"trial_number": 4, "best_validation_accuracy": 0.7699169516563416, "best_test_accuracy": 0.7617419362068176, "params": {"lstm_units": 80, "dense_1_units": 86, "dense_2_units": 92, "dropout_rate": 0.10447588124246804, "learning_rate": 0.003878735289445952}}
