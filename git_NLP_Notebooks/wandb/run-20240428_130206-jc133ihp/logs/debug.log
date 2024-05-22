@@ -1,0 +1,31 @@
+2024-04-28 13:02:06,368 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-28 13:02:06,370 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Configure stats pid to 34244
+2024-04-28 13:02:06,370 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Loading settings from C:\Users\bugat\.config\wandb\settings
+2024-04-28 13:02:06,370 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Loading settings from c:\Users\bugat\Prosjekter\Tekstanalyse\git_NLP\Tekstanalyse\git_NLP_Notebooks\wandb\settings
+2024-04-28 13:02:06,370 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-04-28 13:02:06,370 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-28 13:02:06,371 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-28 13:02:06,371 INFO    MainThread:34244 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-28 13:02:06,371 INFO    MainThread:34244 [wandb_init.py:_log_setup():521] Logging user logs to c:\Users\bugat\Prosjekter\Tekstanalyse\git_NLP\Tekstanalyse\git_NLP_Notebooks\wandb\run-20240428_130206-jc133ihp\logs\debug.log
+2024-04-28 13:02:06,372 INFO    MainThread:34244 [wandb_init.py:_log_setup():522] Logging internal logs to c:\Users\bugat\Prosjekter\Tekstanalyse\git_NLP\Tekstanalyse\git_NLP_Notebooks\wandb\run-20240428_130206-jc133ihp\logs\debug-internal.log
+2024-04-28 13:02:06,372 INFO    MainThread:34244 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000027FDB00E850>
+2024-04-28 13:02:06,373 INFO    MainThread:34244 [wandb_init.py:init():561] calling init triggers
+2024-04-28 13:02:06,373 INFO    MainThread:34244 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-04-28 13:02:06,374 INFO    MainThread:34244 [wandb_init.py:init():611] starting backend
+2024-04-28 13:02:06,374 INFO    MainThread:34244 [wandb_init.py:init():615] setting up manager
+2024-04-28 13:02:06,403 INFO    MainThread:34244 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-28 13:02:06,410 INFO    MainThread:34244 [wandb_init.py:init():623] backend started and connected
+2024-04-28 13:02:06,457 INFO    MainThread:34244 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-28 13:02:06,459 INFO    MainThread:34244 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-28 13:02:06,461 INFO    MainThread:34244 [wandb_init.py:init():715] updated telemetry
+2024-04-28 13:02:06,623 INFO    MainThread:34244 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-28 13:02:07,910 ERROR   MainThread:34244 [wandb_init.py:init():774] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-04-28 13:02:08,992 ERROR   MainThread:34244 [wandb_init.py:init():1199] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "c:\Users\bugat\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "c:\Users\bugat\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 780, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
